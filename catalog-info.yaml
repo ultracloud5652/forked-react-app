@@ -1,11 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: react-app  # The name of your app
+  name: open-source-react-app  # The name of your app
   description: The site provides insights to Open Source projects.
   annotations:
     backstage.io/techdocs-ref: dir:.  # Assuming you have a docs/ folder, or change it to your docs location
 spec:
   type: service  # Describes your React app as a service
   lifecycle: production  # You can change this to "development" if it's still in development
-  owner: dev  # The team responsible for the app
+  system: Sourced
+  owner: dev-team  # The team responsible for the app

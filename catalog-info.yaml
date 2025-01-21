@@ -9,4 +9,4 @@ spec:
   type: service  # Describes your React app as a service
   lifecycle: production  # You can change this to "development" if it's still in development
   system: Sourced
-  owner: dev-team  # The team responsible for the app
+  owner: kolawole  # The team responsible for the app

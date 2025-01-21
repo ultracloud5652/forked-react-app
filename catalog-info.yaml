@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: open-source-react-app  # The name of your app
+  name: iced  # The name of your app
   description: The site provides insights to Open Source projects.
   annotations:
     backstage.io/techdocs-ref: dir:.  # Assuming you have a docs/ folder, or change it to your docs location
